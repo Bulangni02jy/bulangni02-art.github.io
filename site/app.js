@@ -23,8 +23,11 @@ const restTilt = -4;
 let angle = restAngle, speed = 0, tilt = 0, tiltSpeed = 0;
 let drag = null;
 let previousTime = 0;
+let renderedAngle = null, renderedTilt = null;
 
 function renderBadge() {
+  if (angle === renderedAngle && tilt === renderedTilt) return;
+  renderedAngle = angle; renderedTilt = tilt;
   const x = anchor.x + Math.sin(angle) * length;
   const y = anchor.y + Math.cos(angle) * length;
   const theta = (angle - restAngle) * 180 / Math.PI + restTilt + tilt;
@@ -78,6 +81,7 @@ function frame(time) {
 
 function setBook(next) {
   if (next === open) return;
+  if (next) loadBookPages();
   turning = true;
   open = next;
   desk.classList.add('is-turning');
@@ -169,6 +173,15 @@ dialog.addEventListener('click', event => {
   if (event.clientX < r.left || event.clientX > r.right || event.clientY < r.top || event.clientY > r.bottom) closeResume();
 });
 dialog.addEventListener('close', () => hit.focus({ preventScroll: true }));
+function loadBookPages() {
+  document.querySelectorAll('[data-book-src]').forEach(image => {
+    image.src = image.dataset.bookSrc;
+    image.removeAttribute('data-book-src');
+  });
+}
+cover.addEventListener('pointerenter', loadBookPages, { once: true });
+cover.addEventListener('pointerdown', loadBookPages, { once: true });
+cover.addEventListener('focus', loadBookPages, { once: true });
 cover.addEventListener('click', () => setBook(true));
 closeBook.addEventListener('click', () => setBook(false));
 document.addEventListener('keydown', event => {

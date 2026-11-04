@@ -4,7 +4,7 @@ body { margin: 0; overflow: hidden; }
 button { font: inherit; color: inherit; -webkit-tap-highlight-color: transparent; }
 button:focus-visible { outline: 2px solid #a56e75; outline-offset: 7px; }
 .desk { position: relative; display: grid; place-items: center; min-height: 100svh; background: #eee6dc; overflow: hidden; }
-.scene { position: relative; width: 100vw; height: 100svh; background: url("assets/desktop.png") center / cover no-repeat; perspective: 2200px; }
+.scene { position: relative; width: 100vw; height: 100svh; background: url("assets/optimized/desktop-df039b8888-view.webp") center / cover no-repeat; perspective: 2200px; }
 .book { --progress: 0; --turn: 0deg; --shade: 0; position: absolute; width: min(60vw, 111svh); aspect-ratio: 1.4584; left: 50%; top: 49%; transform: translate(calc(-75% + var(--progress) * 25%), -50%); }
 .book-body { position: absolute; inset: 0; transform-style: preserve-3d; perspective: 2400px; perspective-origin: 50% 50%; }
 .pages { position: absolute; left: 50%; top: 0; width: 50%; height: 100%; overflow: hidden; pointer-events: none; border-radius: 0 3% 3% 0; }
@@ -26,7 +26,7 @@ button:focus-visible { outline: 2px solid #a56e75; outline-offset: 7px; }
 .little-note i { font: italic 9px Georgia,serif; color: #a77e70; }
 .note-tape { position: absolute; top: -3%; left: 15%; width: 68%; height: 18%; background: #f9f1dfb3; border-left: 1px dashed #d1b19b6b; border-right: 1px dashed #d1b19b6b; transform: rotate(-12deg); }
 .physical-objects { position:absolute; inset:0; pointer-events:none; }
-.page-object { position:absolute; display:block; background-image:url("assets/page-objects-v1.png"); background-repeat:no-repeat; pointer-events:none; user-select:none; }
+.page-object { position:absolute; display:block; background-image:url("assets/optimized/page-objects-v1-8c8cfb50c5-view.webp"); background-repeat:no-repeat; pointer-events:none; user-select:none; }
 #lanyard { display: block; width: 100%; height: 100%; overflow: visible; }
 .badge-hit { position: absolute; width: 44.8%; height: 45.714%; left: 27.6%; top: 44%; border: 0; border-radius: 12px; background: transparent; cursor: grab; touch-action: none; transform-origin: 50% 0; user-select: none; }
 .badge-hit:active { cursor: grabbing; }

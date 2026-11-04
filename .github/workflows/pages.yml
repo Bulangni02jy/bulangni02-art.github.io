@@ -30,6 +30,12 @@ jobs:
             git commit -m "Preserve verified portfolio artwork and PDFs"
             git push
           fi
+      - name: Build lightweight viewing images
+        env:
+          SHARP_MODULE_ROOT: ${{ runner.temp }}/portfolio-image-tools
+        run: |
+          npm install --prefix "$SHARP_MODULE_ROOT" --no-audit --no-fund --save-exact sharp@0.35.5
+          node tools/optimize-images.mjs site
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:

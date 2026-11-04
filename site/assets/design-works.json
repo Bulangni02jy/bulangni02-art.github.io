@@ -7,10 +7,12 @@
     "layout": "series",
     "images": [
       {
-        "src": "assets/design-works/heeseung-ride-or-die.png",
-        "alt": "Ride or Die 周边物料设计总览，包含铁盒、手幅、透扇与纸袋"
+        "src": "assets/optimized/design-works/heeseung-ride-or-die-a34aeff5ab-view.webp",
+        "alt": "Ride or Die 周边物料设计总览，包含铁盒、手幅、透扇与纸袋",
+        "originalSrc": "assets/design-works/heeseung-ride-or-die.png"
       }
-    ]
+    ],
+    "thumbnail": "assets/optimized/design-works/heeseung-ride-or-die-a34aeff5ab-thumb.webp"
   },
   {
     "id": "dino-happy-day",
@@ -20,10 +22,12 @@
     "layout": "series",
     "images": [
       {
-        "src": "assets/design-works/dino-happy-day.png",
-        "alt": "Happy Dino Day 粉蓝配色物料设计总览，包含挂布、签名布与易拉宝"
+        "src": "assets/optimized/design-works/dino-happy-day-e2301adeb1-view.webp",
+        "alt": "Happy Dino Day 粉蓝配色物料设计总览，包含挂布、签名布与易拉宝",
+        "originalSrc": "assets/design-works/dino-happy-day.png"
       }
-    ]
+    ],
+    "thumbnail": "assets/optimized/design-works/dino-happy-day-e2301adeb1-thumb.webp"
   },
   {
     "id": "sunghoon-neon-winter",
@@ -33,10 +37,12 @@
     "layout": "series",
     "images": [
       {
-        "src": "assets/design-works/sunghoon-neon-winter.png",
-        "alt": "Neon Winter 蓝色冬日主题周边设计总览，包含挂布、吧唧、铁盒、手幅、纸袋与磁带盒"
+        "src": "assets/optimized/design-works/sunghoon-neon-winter-05e5d6e70d-view.webp",
+        "alt": "Neon Winter 蓝色冬日主题周边设计总览，包含挂布、吧唧、铁盒、手幅、纸袋与磁带盒",
+        "originalSrc": "assets/design-works/sunghoon-neon-winter.png"
       }
-    ]
+    ],
+    "thumbnail": "assets/optimized/design-works/sunghoon-neon-winter-05e5d6e70d-thumb.webp"
   },
   {
     "id": "zhang-hanrui-notice",
@@ -44,14 +50,17 @@
     "category": "线上类",
     "description": "开站公告视觉设计",
     "layout": "long",
-    "cover": "assets/design-works/zhang-hanrui-notice-cover.png",
+    "cover": "assets/optimized/design-works/zhang-hanrui-notice-cover-41b80f49e9-view.webp",
     "coverAlt": "张函瑞开站公告版头封面",
     "images": [
       {
-        "src": "assets/design-works/zhang-hanrui-notice-full.png",
-        "alt": "张函瑞开站公告完整长图"
+        "src": "assets/optimized/design-works/zhang-hanrui-notice-full-cd5f35904a-view.webp",
+        "alt": "张函瑞开站公告完整长图",
+        "originalSrc": "assets/design-works/zhang-hanrui-notice-full.png"
       }
-    ]
+    ],
+    "originalCover": "assets/design-works/zhang-hanrui-notice-cover.png",
+    "thumbnail": "assets/optimized/design-works/zhang-hanrui-notice-cover-41b80f49e9-thumb.webp"
   },
   {
     "id": "kenohoon-520-notice",
@@ -59,14 +68,17 @@
     "category": "线上类",
     "description": "520联产公告视觉设计",
     "layout": "long",
-    "cover": "assets/design-works/kenohoon-520-notice-cover.png",
+    "cover": "assets/optimized/design-works/kenohoon-520-notice-cover-5776a13245-view.webp",
     "coverAlt": "建筑CP 520联产公告版头封面",
     "images": [
       {
-        "src": "assets/design-works/kenohoon-520-notice-full.png",
-        "alt": "建筑CP 520联产公告完整长图"
+        "src": "assets/optimized/design-works/kenohoon-520-notice-full-ca6802fce6-view.webp",
+        "alt": "建筑CP 520联产公告完整长图",
+        "originalSrc": "assets/design-works/kenohoon-520-notice-full.png"
       }
-    ]
+    ],
+    "originalCover": "assets/design-works/kenohoon-520-notice-cover.png",
+    "thumbnail": "assets/optimized/design-works/kenohoon-520-notice-cover-5776a13245-thumb.webp"
   },
   {
     "id": "songha-birthday-notice",
@@ -74,14 +86,17 @@
     "category": "线上类",
     "description": "生日应援公告视觉设计",
     "layout": "long",
-    "cover": "assets/design-works/songha-birthday-notice-cover.png",
+    "cover": "assets/optimized/design-works/songha-birthday-notice-cover-d5ba4b306c-view.webp",
     "coverAlt": "李松河生日应援公告版头封面",
     "images": [
       {
-        "src": "assets/design-works/songha-birthday-notice-full.png",
-        "alt": "李松河生日应援公告完整长图"
+        "src": "assets/optimized/design-works/songha-birthday-notice-full-2456fd6921-view.webp",
+        "alt": "李松河生日应援公告完整长图",
+        "originalSrc": "assets/design-works/songha-birthday-notice-full.png"
       }
-    ]
+    ],
+    "originalCover": "assets/design-works/songha-birthday-notice-cover.png",
+    "thumbnail": "assets/optimized/design-works/songha-birthday-notice-cover-d5ba4b306c-thumb.webp"
   },
   {
     "id": "chen-zheyuan-autumn-notice",
@@ -89,14 +104,17 @@
     "category": "线上类",
     "description": "花店应援公告视觉设计",
     "layout": "long",
-    "cover": "assets/design-works/chen-zheyuan-autumn-notice-cover.jpg",
+    "cover": "assets/optimized/design-works/chen-zheyuan-autumn-notice-cover-dda6bb1028-view.webp",
     "coverAlt": "陈哲远花店生日应援公告版头封面",
     "images": [
       {
-        "src": "assets/design-works/chen-zheyuan-autumn-notice-full.jpg",
-        "alt": "陈哲远花店生日应援公告完整长图"
+        "src": "assets/optimized/design-works/chen-zheyuan-autumn-notice-full-68f92f0fc4-view.webp",
+        "alt": "陈哲远花店生日应援公告完整长图",
+        "originalSrc": "assets/design-works/chen-zheyuan-autumn-notice-full.jpg"
       }
-    ]
+    ],
+    "originalCover": "assets/design-works/chen-zheyuan-autumn-notice-cover.jpg",
+    "thumbnail": "assets/optimized/design-works/chen-zheyuan-autumn-notice-cover-dda6bb1028-thumb.webp"
   },
   {
     "id": "article-free-waves",
@@ -104,31 +122,38 @@
     "category": "推文排版类",
     "description": "公众号推文排版",
     "layout": "article",
-    "cover": "assets/design-works/article-free-waves-1.png",
+    "cover": "assets/optimized/design-works/article-free-waves-1-c19dd04165-view.webp",
     "coverAlt": "我要我自在地掀起波澜开篇主视觉",
     "link": "https://mp.weixin.qq.com/s/eZor4oXHqVoQjYJClSdoZA",
     "images": [
       {
-        "src": "assets/design-works/article-free-waves-1.png",
-        "alt": "我要我自在地掀起波澜，排版第1部分"
+        "src": "assets/optimized/design-works/article-free-waves-1-c19dd04165-view.webp",
+        "alt": "我要我自在地掀起波澜，排版第1部分",
+        "originalSrc": "assets/design-works/article-free-waves-1.png"
       },
       {
-        "src": "assets/design-works/article-free-waves-2.png",
-        "alt": "我要我自在地掀起波澜，排版第2部分"
+        "src": "assets/optimized/design-works/article-free-waves-2-6338dae244-view.webp",
+        "alt": "我要我自在地掀起波澜，排版第2部分",
+        "originalSrc": "assets/design-works/article-free-waves-2.png"
       },
       {
-        "src": "assets/design-works/article-free-waves-3.png",
-        "alt": "我要我自在地掀起波澜，排版第3部分"
+        "src": "assets/optimized/design-works/article-free-waves-3-f89444d589-view.webp",
+        "alt": "我要我自在地掀起波澜，排版第3部分",
+        "originalSrc": "assets/design-works/article-free-waves-3.png"
       },
       {
-        "src": "assets/design-works/article-free-waves-4.png",
-        "alt": "我要我自在地掀起波澜，排版第4部分"
+        "src": "assets/optimized/design-works/article-free-waves-4-6f2bec574e-view.webp",
+        "alt": "我要我自在地掀起波澜，排版第4部分",
+        "originalSrc": "assets/design-works/article-free-waves-4.png"
       },
       {
-        "src": "assets/design-works/article-free-waves-5.png",
-        "alt": "我要我自在地掀起波澜，排版第5部分"
+        "src": "assets/optimized/design-works/article-free-waves-5-ffc7822e3c-view.webp",
+        "alt": "我要我自在地掀起波澜，排版第5部分",
+        "originalSrc": "assets/design-works/article-free-waves-5.png"
       }
-    ]
+    ],
+    "originalCover": "assets/design-works/article-free-waves-1.png",
+    "thumbnail": "assets/optimized/design-works/article-free-waves-1-c19dd04165-thumb.webp"
   },
   {
     "id": "article-fallin-flower",
@@ -136,19 +161,23 @@
     "category": "推文排版类",
     "description": "公众号推文排版",
     "layout": "article",
-    "cover": "assets/design-works/article-fallin-flower-1.png",
+    "cover": "assets/optimized/design-works/article-fallin-flower-1-4d2032586a-view.webp",
     "coverAlt": "Fallin’ Flower开篇主视觉",
     "link": "https://mp.weixin.qq.com/s/WkRpGKtSvHrwCvDybW6RRg",
     "images": [
       {
-        "src": "assets/design-works/article-fallin-flower-1.png",
-        "alt": "Fallin’ Flower，排版第1部分"
+        "src": "assets/optimized/design-works/article-fallin-flower-1-4d2032586a-view.webp",
+        "alt": "Fallin’ Flower，排版第1部分",
+        "originalSrc": "assets/design-works/article-fallin-flower-1.png"
       },
       {
-        "src": "assets/design-works/article-fallin-flower-2.png",
-        "alt": "Fallin’ Flower，排版第2部分"
+        "src": "assets/optimized/design-works/article-fallin-flower-2-8632ee7f12-view.webp",
+        "alt": "Fallin’ Flower，排版第2部分",
+        "originalSrc": "assets/design-works/article-fallin-flower-2.png"
       }
-    ]
+    ],
+    "originalCover": "assets/design-works/article-fallin-flower-1.png",
+    "thumbnail": "assets/optimized/design-works/article-fallin-flower-1-4d2032586a-thumb.webp"
   },
   {
     "id": "article-autumn-current",
@@ -156,19 +185,23 @@
     "category": "推文排版类",
     "description": "公众号推文排版",
     "layout": "article",
-    "cover": "assets/design-works/article-autumn-current-1.png",
+    "cover": "assets/optimized/design-works/article-autumn-current-1-6a64e297ff-view.webp",
     "coverAlt": "Autumn Current开篇主视觉",
     "link": "https://mp.weixin.qq.com/s/ZgPU4t8nthLyTQEgJ9S1fw",
     "images": [
       {
-        "src": "assets/design-works/article-autumn-current-1.png",
-        "alt": "Autumn Current，排版第1部分"
+        "src": "assets/optimized/design-works/article-autumn-current-1-6a64e297ff-view.webp",
+        "alt": "Autumn Current，排版第1部分",
+        "originalSrc": "assets/design-works/article-autumn-current-1.png"
       },
       {
-        "src": "assets/design-works/article-autumn-current-2.png",
-        "alt": "Autumn Current，排版第2部分"
+        "src": "assets/optimized/design-works/article-autumn-current-2-5eb02b690e-view.webp",
+        "alt": "Autumn Current，排版第2部分",
+        "originalSrc": "assets/design-works/article-autumn-current-2.png"
       }
-    ]
+    ],
+    "originalCover": "assets/design-works/article-autumn-current-1.png",
+    "thumbnail": "assets/optimized/design-works/article-autumn-current-1-6a64e297ff-thumb.webp"
   },
   {
     "id": "article-fallen-maple",
@@ -176,19 +209,23 @@
     "category": "推文排版类",
     "description": "公众号推文排版",
     "layout": "article",
-    "cover": "assets/design-works/article-fallen-maple-1.png",
+    "cover": "assets/optimized/design-works/article-fallen-maple-1-75e7d16e86-view.webp",
     "coverAlt": "Fallen Maple开篇主视觉",
     "link": "https://mp.weixin.qq.com/s/wgsZWOz5v_vtcpTeevdXJA",
     "images": [
       {
-        "src": "assets/design-works/article-fallen-maple-1.png",
-        "alt": "Fallen Maple，排版第1部分"
+        "src": "assets/optimized/design-works/article-fallen-maple-1-75e7d16e86-view.webp",
+        "alt": "Fallen Maple，排版第1部分",
+        "originalSrc": "assets/design-works/article-fallen-maple-1.png"
       },
       {
-        "src": "assets/design-works/article-fallen-maple-2.png",
-        "alt": "Fallen Maple，排版第2部分"
+        "src": "assets/optimized/design-works/article-fallen-maple-2-436b2f7c51-view.webp",
+        "alt": "Fallen Maple，排版第2部分",
+        "originalSrc": "assets/design-works/article-fallen-maple-2.png"
       }
-    ]
+    ],
+    "originalCover": "assets/design-works/article-fallen-maple-1.png",
+    "thumbnail": "assets/optimized/design-works/article-fallen-maple-1-75e7d16e86-thumb.webp"
   },
   {
     "id": "scoups-love-photo",
@@ -198,10 +235,12 @@
     "layout": "series",
     "images": [
       {
-        "src": "assets/design-works/scoups-love-photo-1.jpg",
-        "alt": "粉灰色生日主题四连拍相框设计总览"
+        "src": "assets/optimized/design-works/scoups-love-photo-1-fb621524db-view.webp",
+        "alt": "粉灰色生日主题四连拍相框设计总览",
+        "originalSrc": "assets/design-works/scoups-love-photo-1.jpg"
       }
-    ]
+    ],
+    "thumbnail": "assets/optimized/design-works/scoups-love-photo-1-fb621524db-thumb.webp"
   },
   {
     "id": "felix-happy-photo",
@@ -211,10 +250,12 @@
     "layout": "series",
     "images": [
       {
-        "src": "assets/design-works/felix-happy-photo-1.jpg",
-        "alt": "粉蓝黄配色生日主题四连拍相框设计总览"
+        "src": "assets/optimized/design-works/felix-happy-photo-1-fba8c31d3b-view.webp",
+        "alt": "粉蓝黄配色生日主题四连拍相框设计总览",
+        "originalSrc": "assets/design-works/felix-happy-photo-1.jpg"
       }
-    ]
+    ],
+    "thumbnail": "assets/optimized/design-works/felix-happy-photo-1-fba8c31d3b-thumb.webp"
   },
   {
     "id": "felix-only-one-photo",
@@ -224,10 +265,12 @@
     "layout": "series",
     "images": [
       {
-        "src": "assets/design-works/felix-only-one-photo-1.jpg",
-        "alt": "蓝绿配色四连拍相框设计总览"
+        "src": "assets/optimized/design-works/felix-only-one-photo-1-58595eb6bc-view.webp",
+        "alt": "蓝绿配色四连拍相框设计总览",
+        "originalSrc": "assets/design-works/felix-only-one-photo-1.jpg"
       }
-    ]
+    ],
+    "thumbnail": "assets/optimized/design-works/felix-only-one-photo-1-58595eb6bc-thumb.webp"
   },
   {
     "id": "scoups-birthday-set",
@@ -237,14 +280,17 @@
     "layout": "series",
     "images": [
       {
-        "src": "assets/design-works/scoups-birthday-set-1.jpg",
-        "alt": "酒红色生日主题易拉宝设计"
+        "src": "assets/optimized/design-works/scoups-birthday-set-1-1c1e547bf7-view.webp",
+        "alt": "酒红色生日主题易拉宝设计",
+        "originalSrc": "assets/design-works/scoups-birthday-set-1.jpg"
       },
       {
-        "src": "assets/design-works/scoups-birthday-set-2.jpg",
-        "alt": "酒红色生日物料总览，包含明信片、吧唧、手幅、透扇与纸袋"
+        "src": "assets/optimized/design-works/scoups-birthday-set-2-f271875487-view.webp",
+        "alt": "酒红色生日物料总览，包含明信片、吧唧、手幅、透扇与纸袋",
+        "originalSrc": "assets/design-works/scoups-birthday-set-2.jpg"
       }
-    ]
+    ],
+    "thumbnail": "assets/optimized/design-works/scoups-birthday-set-1-1c1e547bf7-thumb.webp"
   },
   {
     "id": "wonwoo-happy-set",
@@ -254,14 +300,17 @@
     "layout": "series",
     "images": [
       {
-        "src": "assets/design-works/wonwoo-happy-set-1.jpg",
-        "alt": "蓝色主题海报与纸袋设计总览"
+        "src": "assets/optimized/design-works/wonwoo-happy-set-1-4b090b4bec-view.webp",
+        "alt": "蓝色主题海报与纸袋设计总览",
+        "originalSrc": "assets/design-works/wonwoo-happy-set-1.jpg"
       },
       {
-        "src": "assets/design-works/wonwoo-happy-set-2.jpg",
-        "alt": "蓝色主题人物海报完整设计"
+        "src": "assets/optimized/design-works/wonwoo-happy-set-2-b0ed23eff3-view.webp",
+        "alt": "蓝色主题人物海报完整设计",
+        "originalSrc": "assets/design-works/wonwoo-happy-set-2.jpg"
       }
-    ]
+    ],
+    "thumbnail": "assets/optimized/design-works/wonwoo-happy-set-1-4b090b4bec-thumb.webp"
   },
   {
     "id": "online-felix-magazine",
@@ -271,10 +320,12 @@
     "layout": "series",
     "images": [
       {
-        "src": "assets/design-works/online-felix-magazine.jpg",
-        "alt": "Felix 日杂风海报完整设计图"
+        "src": "assets/optimized/design-works/online-felix-magazine-eecbcc08ce-view.webp",
+        "alt": "Felix 日杂风海报完整设计图",
+        "originalSrc": "assets/design-works/online-felix-magazine.jpg"
       }
-    ]
+    ],
+    "thumbnail": "assets/optimized/design-works/online-felix-magazine-eecbcc08ce-thumb.webp"
   },
   {
     "id": "online-original-promo",
@@ -284,10 +335,12 @@
     "layout": "series",
     "images": [
       {
-        "src": "assets/design-works/online-original-promo.jpg",
-        "alt": "Original 宣传图完整设计图"
+        "src": "assets/optimized/design-works/online-original-promo-4e7d3c573b-view.webp",
+        "alt": "Original 宣传图完整设计图",
+        "originalSrc": "assets/design-works/online-original-promo.jpg"
       }
-    ]
+    ],
+    "thumbnail": "assets/optimized/design-works/online-original-promo-4e7d3c573b-thumb.webp"
   },
   {
     "id": "online-chenyao-cover",
@@ -297,10 +350,12 @@
     "layout": "series",
     "images": [
       {
-        "src": "assets/design-works/online-chenyao-cover.png",
-        "alt": "陈瑶生日公告版头完整设计图"
+        "src": "assets/optimized/design-works/online-chenyao-cover-a67f8ed797-view.webp",
+        "alt": "陈瑶生日公告版头完整设计图",
+        "originalSrc": "assets/design-works/online-chenyao-cover.png"
       }
-    ]
+    ],
+    "thumbnail": "assets/optimized/design-works/online-chenyao-cover-a67f8ed797-thumb.webp"
   },
   {
     "id": "online-liuyaowen-birthday",
@@ -310,10 +365,12 @@
     "layout": "series",
     "images": [
       {
-        "src": "assets/design-works/online-liuyaowen-birthday.png",
-        "alt": "刘耀文生日贺图完整设计图"
+        "src": "assets/optimized/design-works/online-liuyaowen-birthday-ae380ffe48-view.webp",
+        "alt": "刘耀文生日贺图完整设计图",
+        "originalSrc": "assets/design-works/online-liuyaowen-birthday.png"
       }
-    ]
+    ],
+    "thumbnail": "assets/optimized/design-works/online-liuyaowen-birthday-ae380ffe48-thumb.webp"
   },
   {
     "id": "online-scoups-magazine",
@@ -323,10 +380,12 @@
     "layout": "series",
     "images": [
       {
-        "src": "assets/design-works/online-scoups-magazine.jpg",
-        "alt": "S.coups 日杂风海报完整设计图"
+        "src": "assets/optimized/design-works/online-scoups-magazine-e96fe3f52c-view.webp",
+        "alt": "S.coups 日杂风海报完整设计图",
+        "originalSrc": "assets/design-works/online-scoups-magazine.jpg"
       }
-    ]
+    ],
+    "thumbnail": "assets/optimized/design-works/online-scoups-magazine-e96fe3f52c-thumb.webp"
   },
   {
     "id": "online-yuzhen-cover",
@@ -336,10 +395,12 @@
     "layout": "series",
     "images": [
       {
-        "src": "assets/design-works/online-yuzhen-cover.png",
-        "alt": "于贞应援公告版头完整设计图"
+        "src": "assets/optimized/design-works/online-yuzhen-cover-32c9687203-view.webp",
+        "alt": "于贞应援公告版头完整设计图",
+        "originalSrc": "assets/design-works/online-yuzhen-cover.png"
       }
-    ]
+    ],
+    "thumbnail": "assets/optimized/design-works/online-yuzhen-cover-32c9687203-thumb.webp"
   },
   {
     "id": "online-kismet-vows-cover",
@@ -349,10 +410,12 @@
     "layout": "series",
     "images": [
       {
-        "src": "assets/design-works/online-kismet-vows-cover.png",
-        "alt": "命定誓言公告版头完整设计图"
+        "src": "assets/optimized/design-works/online-kismet-vows-cover-f565c2e126-view.webp",
+        "alt": "命定誓言公告版头完整设计图",
+        "originalSrc": "assets/design-works/online-kismet-vows-cover.png"
       }
-    ]
+    ],
+    "thumbnail": "assets/optimized/design-works/online-kismet-vows-cover-f565c2e126-thumb.webp"
   },
   {
     "id": "offline-baekhyun-blanket",
@@ -362,10 +425,12 @@
     "layout": "series",
     "images": [
       {
-        "src": "assets/design-works/offline-baekhyun-blanket.png",
-        "alt": "边伯贤毛毯设计完整设计图"
+        "src": "assets/optimized/design-works/offline-baekhyun-blanket-1b994666e0-view.webp",
+        "alt": "边伯贤毛毯设计完整设计图",
+        "originalSrc": "assets/design-works/offline-baekhyun-blanket.png"
       }
-    ]
+    ],
+    "thumbnail": "assets/optimized/design-works/offline-baekhyun-blanket-1b994666e0-thumb.webp"
   },
   {
     "id": "offline-jun-gemini",
@@ -375,10 +440,12 @@
     "layout": "series",
     "images": [
       {
-        "src": "assets/design-works/offline-jun-gemini.jpg",
-        "alt": "Gemini 主题设计完整设计图"
+        "src": "assets/optimized/design-works/offline-jun-gemini-aa18e73372-view.webp",
+        "alt": "Gemini 主题设计完整设计图",
+        "originalSrc": "assets/design-works/offline-jun-gemini.jpg"
       }
-    ]
+    ],
+    "thumbnail": "assets/optimized/design-works/offline-jun-gemini-aa18e73372-thumb.webp"
   },
   {
     "id": "scoups-birthday-screens",
@@ -388,40 +455,114 @@
     "layout": "series",
     "images": [
       {
-        "src": "assets/design-works/scoups-screen-design.png",
+        "src": "assets/optimized/design-works/scoups-screen-design-ae535cb3f7-view.webp",
         "alt": "S.coups 生日大屏系列设计总览",
-        "label": "设计总览"
+        "label": "设计总览",
+        "originalSrc": "assets/design-works/scoups-screen-design.png"
       },
       {
-        "src": "assets/design-works/scoups-screen-photo-1.jpg",
+        "src": "assets/optimized/design-works/scoups-screen-blue-design-cf484f29fb-view.webp",
+        "alt": "S.coups 粉蓝主题大屏设计总览",
+        "label": "粉蓝主题大屏设计图",
+        "originalSrc": "assets/design-works/scoups-screen-blue-design.jpg"
+      },
+      {
+        "src": "assets/optimized/design-works/scoups-screen-photo-1-29b2d43d99-view.webp",
         "alt": "S.coups 生日大屏现场返图 1",
-        "label": "现场返图 1"
+        "label": "现场返图 1",
+        "originalSrc": "assets/design-works/scoups-screen-photo-1.jpg"
       },
       {
-        "src": "assets/design-works/scoups-screen-photo-2.jpg",
+        "src": "assets/optimized/design-works/scoups-screen-photo-2-7ea9dd1630-view.webp",
         "alt": "S.coups 生日大屏现场返图 2",
-        "label": "现场返图 2"
+        "label": "现场返图 2",
+        "originalSrc": "assets/design-works/scoups-screen-photo-2.jpg"
       },
       {
-        "src": "assets/design-works/scoups-screen-photo-3.jpg",
+        "src": "assets/optimized/design-works/scoups-screen-photo-3-5471889856-view.webp",
         "alt": "S.coups 生日大屏现场返图 3",
-        "label": "现场返图 3"
+        "label": "现场返图 3",
+        "originalSrc": "assets/design-works/scoups-screen-photo-3.jpg"
       },
       {
-        "src": "assets/design-works/scoups-screen-photo-4.jpg",
+        "src": "assets/optimized/design-works/scoups-screen-photo-4-34925a9cdf-view.webp",
         "alt": "S.coups 生日大屏现场返图 4",
-        "label": "现场返图 4"
+        "label": "现场返图 4",
+        "originalSrc": "assets/design-works/scoups-screen-photo-4.jpg"
       },
       {
-        "src": "assets/design-works/scoups-screen-photo-5.jpg",
+        "src": "assets/optimized/design-works/scoups-screen-photo-5-b391ebfa30-view.webp",
         "alt": "S.coups 生日大屏现场返图 5",
-        "label": "现场返图 5"
+        "label": "现场返图 5",
+        "originalSrc": "assets/design-works/scoups-screen-photo-5.jpg"
       },
       {
-        "src": "assets/design-works/scoups-screen-photo-6.jpg",
+        "src": "assets/optimized/design-works/scoups-screen-photo-6-9c5fb29229-view.webp",
         "alt": "S.coups 生日大屏现场返图 6",
-        "label": "现场返图 6"
+        "label": "现场返图 6",
+        "originalSrc": "assets/design-works/scoups-screen-photo-6.jpg"
       }
-    ]
+    ],
+    "thumbnail": "assets/optimized/design-works/scoups-screen-design-ae535cb3f7-thumb.webp"
+  },
+  {
+    "id": "felix-firelight-hanging",
+    "title": "Felix 灯火主题挂布",
+    "category": "落地类",
+    "description": "挂布设计与现场实拍",
+    "layout": "series",
+    "images": [
+      {
+        "src": "assets/optimized/design-works/felix-firelight-hanging-design-e183bb3fd2-view.webp",
+        "alt": "Felix 灯火主题挂布设计图",
+        "label": "挂布设计图",
+        "originalSrc": "assets/design-works/felix-firelight-hanging-design.jpg"
+      },
+      {
+        "src": "assets/optimized/design-works/felix-firelight-hanging-photo-fe3b4c6095-view.webp",
+        "alt": "Felix 灯火主题挂布现场返图",
+        "label": "现场返图",
+        "originalSrc": "assets/design-works/felix-firelight-hanging-photo.jpg"
+      }
+    ],
+    "thumbnail": "assets/optimized/design-works/felix-firelight-hanging-design-e183bb3fd2-thumb.webp"
+  },
+  {
+    "id": "felix-vintage-hanging",
+    "title": "Felix 复古拼贴挂布",
+    "category": "落地类",
+    "description": "挂布设计与现场实拍",
+    "layout": "series",
+    "images": [
+      {
+        "src": "assets/optimized/design-works/felix-vintage-hanging-design-dded4cdaee-view.webp",
+        "alt": "Felix 复古拼贴挂布设计图",
+        "label": "挂布设计图",
+        "originalSrc": "assets/design-works/felix-vintage-hanging-design.jpg"
+      },
+      {
+        "src": "assets/optimized/design-works/felix-vintage-hanging-photo-f782b614ed-view.webp",
+        "alt": "Felix 复古拼贴挂布现场返图",
+        "label": "现场返图",
+        "originalSrc": "assets/design-works/felix-vintage-hanging-photo.jpg"
+      }
+    ],
+    "thumbnail": "assets/optimized/design-works/felix-vintage-hanging-design-dded4cdaee-thumb.webp"
+  },
+  {
+    "id": "scoups-birthday-poster",
+    "title": "S.coups 生日海报",
+    "category": "落地类",
+    "description": "生日海报设计",
+    "layout": "series",
+    "images": [
+      {
+        "src": "assets/optimized/design-works/scoups-birthday-poster-7a0abb4102-view.webp",
+        "alt": "S.coups 生日海报设计效果图",
+        "label": "海报设计效果图",
+        "originalSrc": "assets/design-works/scoups-birthday-poster.jpg"
+      }
+    ],
+    "thumbnail": "assets/optimized/design-works/scoups-birthday-poster-7a0abb4102-thumb.webp"
   }
 ]

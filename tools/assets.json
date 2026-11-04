@@ -90,6 +90,18 @@
     "url": "https://app-xl15.pocketbay.app/assets/design-works/dino-happy-day.png"
   },
   {
+    "path": "assets/design-works/felix-firelight-hanging-design.jpg",
+    "bytes": 1040701,
+    "sha256": "e183bb3fd2658e2ac3d079b20a9f45e3f0772c5fc92b12e4c5e2cb9eb1f34941",
+    "url": "https://app-xl15.pocketbay.app/assets/design-works/felix-firelight-hanging-design.jpg"
+  },
+  {
+    "path": "assets/design-works/felix-firelight-hanging-photo.jpg",
+    "bytes": 2781298,
+    "sha256": "fe3b4c609539a965f96a84e8c02ee03972ff02e754112f2530d8fb60cc40b445",
+    "url": "https://app-xl15.pocketbay.app/assets/design-works/felix-firelight-hanging-photo.jpg"
+  },
+  {
     "path": "assets/design-works/felix-happy-photo-1.jpg",
     "bytes": 1382638,
     "sha256": "fba8c31d3bf5523d184e27d8aa923a0abedd7aa4baaea7cc023d54e07bbc52fc",
@@ -100,6 +112,18 @@
     "bytes": 1707311,
     "sha256": "58595eb6bc02c8888abb23f7095ba1849ad15f36d35f58bf8283d4e419674a0e",
     "url": "https://app-xl15.pocketbay.app/assets/design-works/felix-only-one-photo-1.jpg"
+  },
+  {
+    "path": "assets/design-works/felix-vintage-hanging-design.jpg",
+    "bytes": 1128528,
+    "sha256": "dded4cdaeede9a75dea0c839a5506659f9a451a5f8b0d2eebdef733e04bd02da",
+    "url": "https://app-xl15.pocketbay.app/assets/design-works/felix-vintage-hanging-design.jpg"
+  },
+  {
+    "path": "assets/design-works/felix-vintage-hanging-photo.jpg",
+    "bytes": 4068248,
+    "sha256": "f782b614ed47d8dc093d47fdb0c4d332fb72762fd65b6d7690b1a04a77441402",
+    "url": "https://app-xl15.pocketbay.app/assets/design-works/felix-vintage-hanging-photo.jpg"
   },
   {
     "path": "assets/design-works/heeseung-ride-or-die.png",
@@ -174,6 +198,12 @@
     "url": "https://app-xl15.pocketbay.app/assets/design-works/online-yuzhen-cover.png"
   },
   {
+    "path": "assets/design-works/scoups-birthday-poster.jpg",
+    "bytes": 279017,
+    "sha256": "7a0abb4102a5105fa4fd7e38a91f4326631c6c25966a12a64dcc482730a35eae",
+    "url": "https://app-xl15.pocketbay.app/assets/design-works/scoups-birthday-poster.jpg"
+  },
+  {
     "path": "assets/design-works/scoups-birthday-set-1.jpg",
     "bytes": 567230,
     "sha256": "1c1e547bf7104df918c09621807c5c5a32719f854fd5a31b6a2a4a2b2cee39d0",
@@ -190,6 +220,12 @@
     "bytes": 666810,
     "sha256": "fb621524db25755a8009428ba0b2510b0d191f1edd4a1a6ffcb4be9010d3b17a",
     "url": "https://app-xl15.pocketbay.app/assets/design-works/scoups-love-photo-1.jpg"
+  },
+  {
+    "path": "assets/design-works/scoups-screen-blue-design.jpg",
+    "bytes": 427202,
+    "sha256": "cf484f29fb02291d0a1ee99d0b740a0083a741afb22f610e0da4b37884fd8f4c",
+    "url": "https://app-xl15.pocketbay.app/assets/design-works/scoups-screen-blue-design.jpg"
   },
   {
     "path": "assets/design-works/scoups-screen-design.png",
