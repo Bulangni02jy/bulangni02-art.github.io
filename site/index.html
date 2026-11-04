@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#eee3d5">
+  <title>翻开我的作品档案</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="short-projects.css">
+  <link rel="stylesheet" href="physical-objects.css">
+  <link rel="stylesheet" href="folder-motion.css">
+  <link rel="stylesheet" href="personal-details.css">
+  <link rel="stylesheet" href="design-gallery.css">
+  <link rel="stylesheet" href="mobile-notebook.css">
+</head>
+<body>
+  <main class="desk" id="desk" aria-label="桌面上的作品笔记本">
+    <div class="scene">
+      <div class="book" id="book">
+        <div class="book-body">
+          <div class="pages" aria-hidden="true"><img src="assets/pages.png" alt="" draggable="false"></div>
+          <div class="page-shadow" aria-hidden="true"></div>
+          <section class="projects-layer" id="projectsLayer" aria-label="书页里的作品" inert>
+            <div class="archive-collage" aria-hidden="true"><span class="archive-backing"></span><span class="archive-ticket"><small>MY COLLECTION</small><span>创意收集簿</span><i>ideas, kept here.</i></span><span class="archive-tape"></span><svg class="archive-clip" viewBox="0 0 40 90"><path d="M28 28V65C28 84 5 84 5 65V17C5 -2 36 -2 36 17V64C36 88 13 88 13 64V20C13 10 28 10 28 20V58" fill="none" stroke="#8c7f6d" stroke-width="3" stroke-linecap="round"/><path d="M27 28V65C27 82 6 82 6 65V17C6 0 35 0 35 17V64" fill="none" stroke="#fff7e3" stroke-width="1"/></svg></div>
+            <div class="physical-objects" aria-hidden="true"><span class="page-object object-bow"></span><span class="page-object object-stars"></span><span class="washi-tape tape-dots"></span></div>
+            <div class="paper-pocket" id="planningFolder">
+              <div class="pocket-back" aria-hidden="true"></div>
+              <button class="folder-sheet sheet-hbn" id="planningSheetHbn" data-project="hbn" aria-label="查看 HBN 眼霜策划，可拖出纸张" aria-describedby="folderHelp">
+                <span class="sheet-kicker">01 / BRAND</span>
+                <strong>HBN<br>眼霜策划</strong>
+                <span class="sheet-line">品牌营销策划</span>
+                <span class="sheet-foot">点击查看 <i aria-hidden="true">↗</i></span>
+              </button>
+              <button class="folder-sheet sheet-market" id="planningSheetMarket" data-project="market" aria-label="查看校园市集策划，可拖出纸张" aria-describedby="folderHelp">
+                <span class="sheet-kicker">02 / CAMPUS</span>
+                <strong>校园市集<br>活动策划</strong>
+                <span class="sheet-line">传媒文化节市集</span>
+                <span class="sheet-foot">点击查看 <i aria-hidden="true">↗</i></span>
+              </button>
+              <button class="pocket-front" id="folderToggle" aria-label="展开策划文件夹" aria-expanded="false" aria-controls="planningSheetHbn planningSheetMarket"><span class="pocket-label">策划作品<small>PLANNING FILES</small></span><span class="pocket-star" aria-hidden="true">✦</span></button>
+              <button class="sheet-return" id="returnSheet" hidden>放回文件夹 ↙</button>
+              <span class="folder-help" id="folderHelp">轻点展开 · 纸张可拖出</span>
+            </div>
+            <div class="design-samplebook">
+              <span class="washi-tape tape-stripes" aria-hidden="true"></span>
+              <div class="samplebook-pages" aria-hidden="true"></div>
+              <button class="samplebook-cover" data-design aria-label="打开设计作品集">
+                <span class="samplebook-spine" aria-hidden="true"></span>
+                <span class="samplebook-sticker" aria-hidden="true">✳</span>
+                <span class="samplebook-title">设计作品集<small>DESIGN COLLECTION</small></span>
+                <span class="samplebook-arrow" aria-hidden="true">↗</span>
+              </button>
+              <div class="samplebook-tabs" aria-hidden="true"><span>落地类</span><span>线上类</span><span>推文排版</span></div>
+            </div>
+          </section>
+          <div class="cover" id="leaf">
+            <button class="cover-face front" id="cover" aria-label="打开作品笔记本"><img src="assets/cover.png" alt="饰有满天星、蝴蝶结和纸片的牛皮纸笔记本" draggable="false"></button>
+            <div class="cover-face back">
+              <div class="left-page-texture" aria-hidden="true"><img src="assets/pages.png" alt="" draggable="false"></div>
+              <div class="page-collage" aria-hidden="true">
+                <span class="page-object object-clip"></span>
+                <span class="page-object object-tag"></span>
+                <span class="page-object object-heart"></span>
+                <span class="washi-tape tape-gingham" aria-hidden="true"></span>
+              </div>
+          <div class="profile-layer" id="profileLayer" inert>
+            <svg id="lanyard" viewBox="0 0 500 700" preserveAspectRatio="none" aria-hidden="true">
+              <defs>
+                <linearGradient id="rose" x1="0" x2="1"><stop stop-color="#a9676d"/><stop offset=".35" stop-color="#d19a9d"/><stop offset=".7" stop-color="#c08689"/><stop offset="1" stop-color="#a76870"/></linearGradient>
+                <linearGradient id="metal" x1="0" x2="1"><stop stop-color="#817567"/><stop offset=".3" stop-color="#f3eee5"/><stop offset=".55" stop-color="#a99e8f"/><stop offset=".8" stop-color="#eee8de"/><stop offset="1" stop-color="#8b7e71"/></linearGradient>
+                <radialGradient id="brass"><stop stop-color="#f5dea1"/><stop offset=".6" stop-color="#c7a164"/><stop offset="1" stop-color="#8e6e40"/></radialGradient>
+                <pattern id="weave" width="4" height="4" patternUnits="userSpaceOnUse"><path d="M0 1H4M1 0V4" stroke="#f8dfce" stroke-opacity=".4" stroke-width=".65"/></pattern>
+                <filter id="ropeShadow" x="-30%" y="-20%" width="160%" height="160%"><feDropShadow dx="2" dy="4" stdDeviation="3" flood-color="#664534" flood-opacity=".22"/></filter>
+              </defs>
+              <rect x="153" y="52" width="54" height="43" rx="3" fill="#c8ac85" transform="rotate(-5 180 73)"/>
+              <g filter="url(#ropeShadow)">
+                <path id="ropeBase" fill="none" stroke="url(#rose)" stroke-width="19" stroke-linejoin="round"/>
+                <path id="ropeWeave" fill="none" stroke="url(#weave)" stroke-width="18" stroke-linejoin="round"/>
+                <path id="ropeEdge" fill="none" stroke="#f5d5cc" stroke-width="1" opacity=".6"/>
+              </g>
+              <circle cx="180" cy="72" r="13" fill="#785a37" opacity=".15" transform="translate(1 3)"/>
+              <circle cx="180" cy="72" r="11" fill="url(#brass)" stroke="#8d744b"/>
+              <g id="badgeRig">
+                <ellipse cx="0" cy="-48" rx="15" ry="12" fill="none" stroke="url(#metal)" stroke-width="5"/>
+                <rect x="-5" y="-40" width="10" height="12" rx="3" fill="url(#metal)"/>
+                <path d="M-6-29L-15-6Q-17 6 0 7Q17 6 15-6L6-29Z" fill="none" stroke="url(#metal)" stroke-width="5"/>
+                <path d="M5-24L12-5" stroke="#e7dfd5" stroke-width="2"/>
+                <rect x="-112" y="0" width="224" height="320" rx="13" fill="#78614a" opacity=".1" transform="translate(3 9)"/>
+                <rect x="-112" y="0" width="224" height="320" rx="13" fill="#f6eae0" fill-opacity=".45" stroke="#e2d6c9" stroke-width="3"/>
+                <rect x="-106" y="5" width="212" height="307" rx="10" fill="none" stroke="#fffdf7" stroke-width="2" opacity=".7"/>
+                <rect x="-100" y="26" width="200" height="278" rx="5" fill="#f2dfd4"/>
+                <rect x="-94" y="32" width="188" height="266" rx="3" fill="none" stroke="#bc8483"/>
+                <rect x="-19" y="8" width="38" height="9" rx="4" fill="#b6a392" fill-opacity=".35" stroke="#fdf7ee"/>
+                <path d="M60 44L63 51L71 52L65 57L66 65L60 61L53 65L55 57L49 52L57 51Z" fill="#af7478"/>
+                <text x="-71" y="63" fill="#a66d70" font-size="12" font-family="Arial, sans-serif" letter-spacing="2">PROFILE</text>
+                <rect x="-47" y="75" width="94" height="129" rx="2" fill="#fffbf5" stroke="#d6bdb0"/>
+                <image href="assets/profile-hu-jiayu.jpg" x="-44" y="78" width="88" height="123" preserveAspectRatio="xMidYMid meet"/>
+                <text x="0" y="225" text-anchor="middle" fill="#85615b" font-size="19" font-family="serif" letter-spacing="3">胡嘉瑜</text>
+                <text x="0" y="243" text-anchor="middle" fill="#927064" font-size="11" font-family="sans-serif">策划岗 · 平面设计岗</text>
+                <path d="M-72 253H72" stroke="#c29a8f"/>
+                <text x="0" text-anchor="middle" fill="#927064" font-size="10" font-family="sans-serif"><tspan x="0" y="271">喜欢构思活动，也喜欢琢磨视觉，</tspan><tspan x="0" y="287">把点子变成具体的方案与画面。</tspan></text>
+              </g>
+            </svg>
+            <button class="badge-hit" id="badgeHit" aria-label="查看胡嘉瑜的简历，求职方向为策划岗、平面设计岗；可拖动工作证" title="胡嘉瑜 · 策划 / 平面设计 · 点击查看简历"></button>
+            <button class="ability-note" id="openAbilities" aria-haspopup="dialog" aria-controls="abilitiesDialog">
+              <span class="note-tape" aria-hidden="true"></span>
+              <svg class="note-paperclip" viewBox="0 0 40 90" aria-hidden="true"><defs><linearGradient id="clipSteel"><stop stop-color="#837a6e"/><stop offset=".35" stop-color="#fffaf0"/><stop offset=".65" stop-color="#a59e91"/><stop offset="1" stop-color="#71695d"/></linearGradient></defs><path d="M28 28V65C28 84 5 84 5 65V17C5 -2 36 -2 36 17V64C36 88 13 88 13 64V20C13 10 28 10 28 20V58" fill="none" stroke="#796c5c35" stroke-width="5" transform="translate(1 2)"/><path d="M28 28V65C28 84 5 84 5 65V17C5 -2 36 -2 36 17V64C36 88 13 88 13 64V20C13 10 28 10 28 20V58" fill="none" stroke="url(#clipSteel)" stroke-width="3" stroke-linecap="round"/></svg>
+              <small>A FEW THINGS I DO</small><strong>我能做什么</strong>
+              <span>创意策划</span><span>视觉表达</span><span>现场统筹</span>
+              <i>了解更多 ↗</i>
+            </button>
+            <a class="contact-card" href="mailto:1607303158@qq.com" aria-label="写邮件联系胡嘉瑜：1607303158@qq.com">
+              <span class="envelope-flap" aria-hidden="true"></span><span class="envelope-seal" aria-hidden="true"></span>
+              <strong>写信给我 <span aria-hidden="true">↗</span></strong><span class="contact-email">1607303158@qq.com</span>
+            </a>
+          </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="open-hint" id="openHint">轻触，翻开我的作品档案 <span>↗</span></p>
+      <p class="badge-hint" id="badgeHint" aria-hidden="true">拖一拖工作证 · 轻触查看简历</p>
+    </div>
+    <nav class="desk-controls" aria-label="笔记本控制">
+      <span class="edition">MY LITTLE ARCHIVE <i>✳</i></span>
+      <button id="closeBook" hidden>合上笔记本 <span aria-hidden="true">↙</span></button>
+    </nav>
+    <nav class="mobile-page-nav" id="mobilePageNav" aria-label="切换笔记本书页" hidden>
+      <div class="mobile-page-tabs">
+        <button id="mobileProfile" aria-pressed="true" aria-controls="profileLayer">个人档案 <span>01</span></button>
+        <button id="mobileWorks" aria-pressed="false" aria-controls="projectsLayer">作品收藏 <span>02</span></button>
+      </div>
+      <p>轻扫空白书页，或点上方切换</p>
+    </nav>
+    <p id="status" class="sr-only" aria-live="polite"></p>
+  </main>
+  <dialog id="resumeDialog" aria-labelledby="resumeTitle">
+    <button id="closeResume" class="dialog-close" aria-label="关闭简历">×</button>
+    <p class="eyebrow">PERSONAL PROFILE</p>
+    <h1 id="resumeTitle">胡嘉瑜</h1>
+    <p class="resume-note">求职方向：策划岗、平面设计岗</p>
+    <p class="resume-description">喜欢构思活动，也喜欢琢磨视觉，把点子变成具体的方案与画面。</p>
+    <div class="resume-actions"><a href="assets/hu-jiayu-resume.pdf" target="_blank" rel="noopener">打开 PDF ↗</a><a href="assets/hu-jiayu-resume.pdf" download="胡嘉瑜简历2.0.pdf">下载简历 ↓</a></div><div class="resume-preview"><a href="assets/hu-jiayu-resume.pdf" target="_blank" rel="noopener" aria-label="打开胡嘉瑜简历 PDF"><img src="assets/hu-jiayu-resume-1.png" alt="胡嘉瑜简历，第1页，点击可打开原始PDF" loading="lazy"></a></div>
+    <button id="returnBook" class="return-button">回到笔记本</button>
+  </dialog>
+  <dialog id="abilitiesDialog" class="abilities-dialog" aria-labelledby="abilitiesTitle">
+    <button class="dialog-close" data-close-abilities aria-label="关闭能力与经历">×</button>
+    <p class="eyebrow">A FEW THINGS I DO</p>
+    <h1 id="abilitiesTitle">能力与经历</h1>
+    <section class="personal-section">
+      <h2>创意、视觉与现场</h2>
+      <ul class="ability-list"><li><strong>创意策划</strong><span>活动主题、概念与环节构思。</span></li><li><strong>视觉表达</strong><span>活动海报、物料设计与 PPT 美化排版。</span></li><li><strong>现场统筹</strong><span>统筹安排、策划管理、场地布置与内容校对。</span></li></ul>
+    </section>
+    <section class="personal-section">
+      <h2>教育背景</h2><p class="school-line">龙岩学院 <span>／ 广播电视学</span></p>
+      <p>相关课程：广告策划与创意、数字营销、平面设计、新媒体概论、电视节目制作技术。</p>
+    </section>
+    <section class="personal-section">
+      <h2>常用工具</h2>
+      <div class="tool-group"><h3>策划案与演示</h3><ul class="tool-icons"><li><span class="tool-icon icon-ppt" aria-hidden="true">P</span><span>PowerPoint</span></li></ul><p>策划案制作、美化与排版</p></div>
+      <div class="tool-group"><h3>设计与排版</h3><ul class="tool-icons"><li><span class="tool-icon icon-ps" aria-hidden="true">Ps</span><span>Photoshop</span></li><li><span class="tool-icon icon-ai" aria-hidden="true">Ai</span><span>Illustrator</span></li><li><span class="tool-icon icon-id" aria-hidden="true">Id</span><span>InDesign</span></li></ul></div>
+      <div class="tool-group"><h3>视频剪辑</h3><ul class="tool-icons"><li><span class="tool-icon icon-jianying" aria-hidden="true"><svg viewBox="0 0 32 32"><path d="M5 8H27L5 24H27M5 8L27 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/></svg></span><span>剪映</span></li><li><span class="tool-icon icon-pr" aria-hidden="true">Pr</span><span>Premiere Pro</span></li><li><span class="tool-icon icon-ae" aria-hidden="true">Ae</span><span>After Effects</span></li></ul></div>
+      <div class="tool-group"><h3>网站与工作流</h3><ul class="tool-icons"><li><span class="tool-icon icon-codex" aria-hidden="true">&lt;/&gt;</span><span>Codex</span></li><li><span class="tool-icon icon-deepseek" aria-hidden="true">DS</span><span>DeepSeek</span></li></ul></div>
+    </section>
+    <section class="personal-section">
+      <h2>校园实践</h2><p class="school-line">第十二届传媒文化节快闪活动“在现场”</p>
+      <p class="practice-meta">2026.05.21 · 已举办 · 活动主负责人</p>
+      <p>提出“市集与主理人”概念，构思各环节内容，统筹策划管理、现场布置与物料设计。</p>
+      <p class="practice-result">累计人流量 <strong>500+</strong></p>
+    </section>
+    <button class="return-button" data-close-abilities>回到笔记本</button>
+  </dialog>
+  <script src="app.js"></script>
+  <script src="mobile-notebook.js"></script>
+  <script src="short-projects.js"></script>
+  <script src="folder-motion.js"></script>
+  <script src="personal-details.js"></script>
+  <script src="design-gallery.js"></script>
+</body>
+</html>
+

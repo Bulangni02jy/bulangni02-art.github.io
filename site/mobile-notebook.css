@@ -1,0 +1,48 @@
+/* One physical page at a time on portrait phones; the full spread stays intact. */
+.mobile-page-nav[hidden] { display: none; }
+.mobile-page-nav { display: none; }
+@media (max-width: 900px) and (orientation: portrait) {
+  .desk { --mobile-page-width: min(90vw, calc((100svh - 190px) * .7292)); min-height: 100svh; }
+  .scene { overflow: hidden; height: 100svh; touch-action: pan-y pinch-zoom; }
+  .book { width: calc(var(--mobile-page-width) * 2); top: 45%; transform: translate(calc(-75% + var(--progress) * 50%), -50%); }
+  .desk.is-settled .book { transition: transform .4s ease; }
+  .desk.mobile-works .book { transform: translate(-75%, -50%); }
+  .desk.is-settled:not(.mobile-works) .projects-layer,
+  .desk.is-settled:not(.mobile-works) .pages,
+  .desk.is-settled.mobile-works .cover { visibility: hidden; }
+  .desk.is-settled .page-shadow { display: none; }
+  .desk-controls { top: max(16px, env(safe-area-inset-top)); bottom: auto; left: 18px; right: 18px; justify-content: flex-end; }
+  .edition { display: none; }
+  #closeBook { min-height: 44px; padding: 9px 16px; background: #fff8edf0; }
+  .open-hint { bottom: max(10svh, 44px); font-size: 12px; }
+  .badge-hint { display: none; }
+  .mobile-page-nav { display: block; position: absolute; left: 50%; bottom: max(22px, calc(env(safe-area-inset-bottom) + 12px)); transform: translateX(-50%); width: min(90vw, 380px); text-align: center; }
+  .mobile-page-tabs { display: flex; gap: 8px; padding: 5px; border: 1px solid #bd9d8c50; border-radius: 32px; background: #fff8edeb; box-shadow: 0 4px 18px #65442b0d; }
+  .mobile-page-tabs button { flex: 1; min-height: 46px; padding: 10px 12px; border: 0; border-radius: 24px; background: transparent; color: #947561; font-size: 13px; cursor: pointer; }
+  .mobile-page-tabs button[aria-pressed="true"] { background: #e9cfc0; color: #72513f; box-shadow: 0 1px 3px #78513a12; }
+  .mobile-page-tabs span { margin-left: 8px; font: 11px Georgia, serif; opacity: .65; }
+  .mobile-page-nav p { margin: 9px 0 0; font-size: 11px; color: #896c59; text-shadow: 0 1px 4px #fff; }
+  #resumeDialog, .abilities-dialog, .project-dialog, .design-dialog,
+  .design-dialog.is-viewing, .design-dialog.is-category {
+    width: 100%; max-width: none; height: 100dvh; max-height: 100dvh; margin: 0;
+    border: 0; border-radius: 0; padding: max(16px, env(safe-area-inset-top)) max(20px, env(safe-area-inset-right)) max(28px, env(safe-area-inset-bottom)) max(20px, env(safe-area-inset-left));
+    overflow-y: auto; overflow-x: hidden; overscroll-behavior: contain;
+  }
+  #resumeDialog > .dialog-close, .abilities-dialog > .dialog-close, .project-dialog > .dialog-close, .design-dialog > .dialog-close {
+    position: sticky; top: 0; right: auto; float: right; z-index: 20; min-width: 44px; min-height: 44px; margin: 0 0 12px 12px;
+    border: 1px solid #dcc7b3; border-radius: 24px; padding: 8px 14px; background: #fff9eff5; box-shadow: 0 2px 8px #63482f12;
+  }
+  .design-back, .image-controls button, .view-modes button, .gallery-pages button { min-height: 44px; padding: 10px 14px; font-size: 12px; }
+  .depth-controls button { width: 44px; height: 44px; }
+  .depth-thumbs button { min-width: 44px; min-height: 56px; }
+  .brief-intro, .brief-points p, .personal-section p { font-size: 14px; line-height: 1.9; }
+  .brief-files a, .resume-actions a { min-height: 44px; display: inline-flex; align-items: center; font-size: 13px; }
+  .article-reader { width: 100%; max-width: none; }
+  .art-sheet img { height: auto; max-height: none; width: 100%; object-fit: contain; }
+  .design-dialog .work-view { width: 100%; max-width: none; }
+  .design-dialog.is-zoomed .work-view { overflow-x: auto; overscroll-behavior-x: contain; }
+  .design-dialog.is-zoomed .art-sheet { width: max(100%, 600px); touch-action: pan-x pan-y pinch-zoom; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .desk.is-settled .book { transition: none; }
+}

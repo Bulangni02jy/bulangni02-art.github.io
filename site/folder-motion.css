@@ -1,0 +1,30 @@
+/* Two independently draggable project sheets between the folder panels. */
+.paper-pocket{left:27%;top:21%;width:58%;height:28%;isolation:isolate;z-index:2;perspective:900px}
+.pocket-back{inset:0;background:linear-gradient(110deg,#d6ba94,#cbaa80);border-radius:3px 5px 7px 7px}
+.pocket-back::before{height:13%;top:-11%;width:44%}
+.folder-sheet{--sheet-x:0px;--sheet-y:0px;position:absolute;z-index:1;left:9%;top:-7%;width:82%;height:104%;padding:8% 8% 6%;border:1px solid #dfd2ba;border-radius:2px;background:linear-gradient(110deg,#fffdf4,#f5ecdb);text-align:left;box-shadow:1px 3px 4px #674c3020;color:#87664f;cursor:grab;touch-action:none;user-select:none;transform:translate(var(--sheet-x),var(--sheet-y)) rotate(-3deg);transition:transform .65s cubic-bezier(.22,1.35,.35,1),box-shadow .4s;will-change:transform}
+.sheet-kicker{display:block;font:clamp(4px,1.35cqw,7px) Georgia,serif;letter-spacing:.06em;color:#b09a7c;white-space:nowrap}
+.folder-sheet strong{display:block;font:400 clamp(10px,4.1cqw,18px)/1.7 "SimSun",serif;letter-spacing:.1em;margin:4% 0 8%}
+.sheet-line{display:block;font:clamp(5px,1.8cqw,9px)/2.4 Georgia,serif;border-bottom:1px solid #ded0bd;color:#b29579;white-space:nowrap}
+.sheet-line b{font:400 clamp(6px,2.25cqw,11px) "SimSun",serif;margin-left:5%;color:#80634e}
+.sheet-foot{display:flex;justify-content:space-between;margin-top:7%;font:clamp(5px,1.7cqw,8px) "Microsoft YaHei",sans-serif;color:#ad8870}.sheet-foot i{font-style:normal}
+.pocket-front{z-index:2;height:100%;padding:0;cursor:pointer;pointer-events:auto;transform-origin:center bottom;transition:transform .55s cubic-bezier(.22,1,.36,1),height .45s,filter .4s;background:linear-gradient(110deg,#ddc29e,#c7a27a);text-align:left}
+.pocket-label{top:34%;left:12%;padding:5% 7%}.pocket-star{top:42%}
+.folder-sheet{width:65%;height:90%;--sheet-angle:0deg;visibility:hidden;opacity:0;pointer-events:none;transform:translate(var(--sheet-x),var(--sheet-y)) rotate(var(--sheet-angle));transition:transform .65s cubic-bezier(.22,1.15,.35,1),opacity .2s,visibility .2s,box-shadow .4s}
+.sheet-hbn{left:10%;top:5%}
+.sheet-market{left:24%;top:5%;background:linear-gradient(110deg,#fff8f1,#f0ddd3)}
+.folder-sheet strong{font-size:clamp(9px,3.5cqw,16px);line-height:1.5;margin-bottom:7%}
+.paper-pocket.is-peeking .folder-sheet,.folder-sheet.is-detached{visibility:visible;opacity:1;pointer-events:auto}
+.paper-pocket.is-peeking .sheet-hbn{--sheet-x:-27%;--sheet-y:-43%;--sheet-angle:-8deg;box-shadow:3px 8px 11px #674c302b}
+.paper-pocket.is-peeking .sheet-market{--sheet-x:29%;--sheet-y:-29%;--sheet-angle:7deg;box-shadow:3px 8px 11px #674c302b}
+.paper-pocket.is-peeking .pocket-front{height:67%;transform:rotateX(-19deg);filter:brightness(1.025)}
+.folder-sheet.is-detached{z-index:4;box-shadow:5px 10px 12px #674c3030}
+.folder-sheet.is-top{z-index:5}
+.folder-sheet.is-dragging{transition:none;cursor:grabbing}
+.folder-help{position:absolute;top:108%;left:-8%;width:116%;text-align:center;font:clamp(5px,1.8cqw,9px) "Microsoft YaHei",sans-serif;color:#b2967d;pointer-events:none;white-space:nowrap;transition:opacity .2s}
+.paper-pocket.is-detached .folder-help{opacity:0}
+.sheet-return{position:absolute;z-index:3;top:62%;left:5%;width:80%;padding:3px 0;border:0;background:transparent;font:clamp(6px,2.4cqw,11px) "Microsoft YaHei",sans-serif;color:#806045;cursor:pointer;white-space:nowrap}
+.paper-pocket.is-detached .pocket-label{visibility:hidden}
+.paper-pocket.is-dragging .sheet-return{visibility:hidden}
+@media(prefers-reduced-motion:reduce){.folder-sheet,.pocket-front{transition:none}}
+

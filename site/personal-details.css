@@ -1,0 +1,45 @@
+.profile-layer{container-type:inline-size}
+.ability-note{position:absolute;left:61%;top:9%;width:33%;padding:7% 3.5% 4%;border:1px solid #d9c5a9;border-radius:2px;background:linear-gradient(105deg,#fff9ec,#f1e5cf);transform:rotate(3deg);box-shadow:2px 4px 5px #78504020;text-align:left;cursor:pointer;color:#866251;transition:transform .25s,box-shadow .25s}
+.ability-note::before{content:"";position:absolute;left:-5%;width:4%;top:5%;bottom:-2%;border:1px solid #d4afa0;background:#ecd0c3;transform:rotate(-2deg);box-shadow:1px 2px 3px #78504015}
+.ability-note:hover{transform:rotate(1deg) translateY(-2px);box-shadow:3px 6px 9px #7850402b}
+.ability-note small{display:block;font:clamp(4px,1.5cqw,7px) Georgia,serif;letter-spacing:.03em;color:#a78370;white-space:nowrap}
+.ability-note strong{display:block;font:400 clamp(9px,4cqw,19px)/1.5 "KaiTi",serif;margin:8% 0 10%;white-space:nowrap}
+.ability-note>span:not(.note-tape){display:block;font:clamp(7px,2.7cqw,12px)/2 "SimSun",serif;border-bottom:1px solid #cbb59d70;padding-left:3%}
+.ability-note i{display:block;margin-top:10%;font:normal clamp(5px,2cqw,9px) "Microsoft YaHei",sans-serif;color:#a3816c;text-align:right}
+.ability-note .note-tape{top:-4%;left:22%;width:50%;height:11%;background:#d6aaa180;transform:rotate(-8deg)}
+.contact-card{position:absolute;left:58%;top:81%;width:35%;height:15%;padding:0;background:linear-gradient(32deg,transparent 49%,#d8c3a544 50%,transparent 51%) bottom left/52% 65% no-repeat,linear-gradient(-32deg,transparent 49%,#d8c3a544 50%,transparent 51%) bottom right/52% 65% no-repeat,linear-gradient(105deg,#fff7e6,#f1e5ce);border:1px solid #d9c5a7;border-radius:2px;box-shadow:1px 3px 5px #77533824;transform:rotate(-5deg);color:#876650;text-decoration:none;text-align:left;transition:transform .25s}
+.page-collage .object-tag{left:66%;top:48%;width:24%}
+.page-collage .object-heart{left:77%;top:70%;width:12%}
+.contact-card:hover{transform:rotate(-2deg) translateY(-2px)}
+.contact-card strong{position:absolute;left:9%;right:9%;top:55%;display:flex;justify-content:space-between;font:400 clamp(8px,3cqw,14px) "KaiTi",serif;margin:0}
+.contact-email{position:absolute;left:9%;bottom:7%;display:block;font:clamp(5px,2.1cqw,10px)/1.5 Consolas,monospace;white-space:nowrap}
+.envelope-flap{position:absolute;left:0;top:0;width:100%;height:53%;clip-path:polygon(0 0,100% 0,50% 100%);background:linear-gradient(#f9ecd5,#e7d2b2);filter:drop-shadow(0 1px 1px #8f704933)}
+.envelope-seal{position:absolute;left:45%;top:27%;width:10%;aspect-ratio:1;border-radius:50%;background:radial-gradient(circle at 35% 30%,#e8bcb1,#c99288);border:1px solid #c58f83;box-shadow:0 1px 2px #78504025}
+.contact-card:focus-visible{outline:2px solid #a56e75;outline-offset:4px}
+.abilities-dialog{width:min(90vw,620px);max-height:88svh;overflow:auto;padding:36px 38px}
+.abilities-dialog h1{font:400 27px/1.5 "SimSun",serif;margin:10px 0 23px}
+.personal-section{padding:17px 0;border-top:1px solid #e2d3bf}.personal-section h2{font:500 14px/1.6 "Microsoft YaHei",sans-serif;margin:0 0 10px;color:#8f6957}.personal-section p{font:12px/1.9 "Microsoft YaHei",sans-serif;color:#8e7462;margin:6px 0}.personal-section .school-line{font-size:14px;color:#72513e}.school-line span{font-size:12px}
+.ability-list{list-style:none;padding:0;margin:0}.ability-list li{display:flex;gap:15px;font:12px/2.1 "Microsoft YaHei",sans-serif}.ability-list strong{font-weight:500;white-space:nowrap;color:#76533e}.ability-list span{color:#8e7462}
+.tools-list{margin:0}.tools-list div+div{margin-top:11px}.tools-list dt{font:12px/1.7 "Microsoft YaHei",sans-serif;color:#76533e}.tools-list dd{margin:2px 0 0;font:11px/1.7 "Microsoft YaHei",sans-serif;color:#9d8370}
+.personal-section .practice-meta{font-size:10px;color:#ac8b73}.practice-result strong{font:400 22px Georgia,serif;color:#a57365;margin-left:6px}
+@media(max-width:600px){.abilities-dialog{padding:32px 24px}.ability-list li{gap:10px;font-size:11px}}
+
+/* Software tiles follow the scrapbook palette; names remain visible for clarity. */
+.tool-group{margin:15px 0 18px}.tool-group h3{font:400 11px/1.7 "Microsoft YaHei",sans-serif;color:#a1826c;margin:0 0 9px}.tool-group>p{font-size:10px;margin-top:8px}
+.tool-icons{list-style:none;display:flex;gap:16px 20px;flex-wrap:wrap;padding:0;margin:0}.tool-icons li{display:flex;flex-direction:column;align-items:center;gap:7px;min-width:74px;font:10px/1.4 "Microsoft YaHei",sans-serif;color:#94735d}
+.tool-icon{display:grid;place-items:center;width:43px;height:43px;border:1px solid #fff6e780;border-radius:10px;background:linear-gradient(140deg,#966f67,#76534d);color:#fff1df;font:500 22px/1 Arial,sans-serif;box-shadow:1px 2px 2px #72523a25;transform:rotate(-4deg)}
+.tool-icons li:nth-child(2n) .tool-icon{transform:rotate(3deg)}.icon-ai,.icon-ppt{background:linear-gradient(140deg,#ad8b6b,#896b50)}.icon-id{background:linear-gradient(140deg,#b38084,#8e626b)}.icon-pr,.icon-ae{background:linear-gradient(140deg,#91818f,#736273)}.icon-jianying{background:linear-gradient(140deg,#9d8a77,#79695c)}.icon-codex{background:linear-gradient(140deg,#8c9481,#6c785f);font-size:16px}.icon-deepseek{background:linear-gradient(140deg,#8c9eaa,#6d8193);font-size:18px}.tool-icon svg{width:27px;height:27px}
+/* Paper decorations sit on their own objects and never intercept clicks. */
+.washi-tape{position:absolute;display:block;pointer-events:none;opacity:.74;box-shadow:0 1px 1px #89684413;clip-path:polygon(2% 0,98% 2%,100% 20%,98% 39%,100% 61%,98% 80%,100% 100%,1% 98%,2% 76%,0 56%,2% 35%,0 16%)}
+.tape-gingham{left:4%;top:95%;width:30%;height:2.7%;transform:rotate(4deg);background-color:#f4dfd7;background-image:repeating-linear-gradient(0deg,transparent 0 4px,#c992922e 4px 8px),repeating-linear-gradient(90deg,transparent 0 4px,#c9929244 4px 8px)}
+.tape-stripes{z-index:2;left:9%;top:-6%;width:27%;height:13%;transform:rotate(-16deg);background:repeating-linear-gradient(125deg,#f7ebd6 0 5px,#c3aa8660 5px 8px)}
+.tape-dots{left:89%;top:7%;width:6%;height:13%;transform:rotate(13deg);background:#edc5b7 radial-gradient(circle,#bb7d7377 1px,transparent 1.5px) 0 0/8px 8px}
+.note-paperclip{position:absolute;right:8%;top:-8%;width:12%;height:26%;overflow:visible;transform:rotate(18deg);pointer-events:none}
+@media(max-width:600px){.tool-icons{gap:14px}.tool-icons li{min-width:67px}.tool-icon{width:39px;height:39px;font-size:20px}}
+/* A small paper cluster above the right-page folder; purely decorative. */
+.archive-collage{position:absolute;left:7%;top:7%;width:37%;height:12%;pointer-events:none;transform:rotate(-6deg)}
+.archive-backing{position:absolute;left:-3%;top:12%;width:94%;height:94%;background:repeating-linear-gradient(0deg,#e5d8c2 0 1px,#f3e9d4 1px 8px);border:1px solid #dbcaac;transform:rotate(8deg);box-shadow:1px 2px 3px #77533818}
+.archive-ticket{position:absolute;inset:0;background:#eed3c6;border:1px solid #d4b0a0;padding:9% 10%;box-shadow:1px 3px 4px #77533820;clip-path:polygon(0 0,100% 0,100% 40%,97% 50%,100% 60%,100% 100%,0 100%,0 60%,3% 50%,0 40%)}
+.archive-ticket small{display:block;font:clamp(4px,1.6cqw,8px) Georgia,serif;letter-spacing:.08em;color:#aa8170;white-space:nowrap}.archive-ticket>span{display:block;font:400 clamp(9px,4.2cqw,18px)/1.6 "KaiTi",serif;color:#8a6451;letter-spacing:.08em}.archive-ticket i{display:block;font:italic clamp(4px,1.8cqw,8px) Georgia,serif;color:#aa8170}
+.archive-tape{position:absolute;left:55%;top:-12%;width:39%;height:24%;background:repeating-linear-gradient(110deg,#f4eacda8 0 4px,#afbb9b80 4px 6px);transform:rotate(14deg);border-left:1px dashed #c7bda0;border-right:1px dashed #c7bda0}
+.archive-clip{position:absolute;left:4%;top:-15%;width:10%;height:48%;transform:rotate(-17deg);overflow:visible;filter:drop-shadow(1px 1px 1px #624a3225)}
