@@ -461,12 +461,6 @@
         "originalSrc": "assets/design-works/scoups-screen-design.png"
       },
       {
-        "src": "assets/optimized/design-works/scoups-screen-blue-design-cf484f29fb-view.webp",
-        "alt": "S.coups 粉蓝主题大屏设计总览",
-        "label": "粉蓝主题大屏设计图",
-        "originalSrc": "assets/design-works/scoups-screen-blue-design.jpg"
-      },
-      {
         "src": "assets/optimized/design-works/scoups-screen-photo-1-29b2d43d99-view.webp",
         "alt": "S.coups 生日大屏现场返图 1",
         "label": "现场返图 1",
@@ -504,65 +498,5 @@
       }
     ],
     "thumbnail": "assets/optimized/design-works/scoups-screen-design-ae535cb3f7-thumb.webp"
-  },
-  {
-    "id": "felix-firelight-hanging",
-    "title": "Felix 灯火主题挂布",
-    "category": "落地类",
-    "description": "挂布设计与现场实拍",
-    "layout": "series",
-    "images": [
-      {
-        "src": "assets/optimized/design-works/felix-firelight-hanging-design-e183bb3fd2-view.webp",
-        "alt": "Felix 灯火主题挂布设计图",
-        "label": "挂布设计图",
-        "originalSrc": "assets/design-works/felix-firelight-hanging-design.jpg"
-      },
-      {
-        "src": "assets/optimized/design-works/felix-firelight-hanging-photo-fe3b4c6095-view.webp",
-        "alt": "Felix 灯火主题挂布现场返图",
-        "label": "现场返图",
-        "originalSrc": "assets/design-works/felix-firelight-hanging-photo.jpg"
-      }
-    ],
-    "thumbnail": "assets/optimized/design-works/felix-firelight-hanging-design-e183bb3fd2-thumb.webp"
-  },
-  {
-    "id": "felix-vintage-hanging",
-    "title": "Felix 复古拼贴挂布",
-    "category": "落地类",
-    "description": "挂布设计与现场实拍",
-    "layout": "series",
-    "images": [
-      {
-        "src": "assets/optimized/design-works/felix-vintage-hanging-design-dded4cdaee-view.webp",
-        "alt": "Felix 复古拼贴挂布设计图",
-        "label": "挂布设计图",
-        "originalSrc": "assets/design-works/felix-vintage-hanging-design.jpg"
-      },
-      {
-        "src": "assets/optimized/design-works/felix-vintage-hanging-photo-f782b614ed-view.webp",
-        "alt": "Felix 复古拼贴挂布现场返图",
-        "label": "现场返图",
-        "originalSrc": "assets/design-works/felix-vintage-hanging-photo.jpg"
-      }
-    ],
-    "thumbnail": "assets/optimized/design-works/felix-vintage-hanging-design-dded4cdaee-thumb.webp"
-  },
-  {
-    "id": "scoups-birthday-poster",
-    "title": "S.coups 生日海报",
-    "category": "落地类",
-    "description": "生日海报设计",
-    "layout": "series",
-    "images": [
-      {
-        "src": "assets/optimized/design-works/scoups-birthday-poster-7a0abb4102-view.webp",
-        "alt": "S.coups 生日海报设计效果图",
-        "label": "海报设计效果图",
-        "originalSrc": "assets/design-works/scoups-birthday-poster.jpg"
-      }
-    ],
-    "thumbnail": "assets/optimized/design-works/scoups-birthday-poster-7a0abb4102-thumb.webp"
   }
 ]

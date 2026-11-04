@@ -131,7 +131,7 @@
   }
   trigger.addEventListener('click',async()=>{
     shell('<h1 id="designTitle">设计作品集</h1><p class="design-subtitle">正在展开作品…</p>'); modal.showModal();
-    try{if(!works.length){const r=await fetch('assets/design-works.json');if(!r.ok)throw Error();works=await r.json();}if(modal.open)home();}
+    try{if(!works.length){const r=await fetch('assets/design-works.json?v=images1');if(!r.ok)throw Error();works=await r.json();}if(modal.open)home();}
     catch{shell('<h1 id="designTitle">暂时无法读取作品</h1><p class="design-subtitle">请关闭后重试。</p>');}
   });
   modal.addEventListener('close',()=>{selected=null;drag=null;busy=false;modal.classList.remove('is-zoomed');trigger.focus({preventScroll:true});});
