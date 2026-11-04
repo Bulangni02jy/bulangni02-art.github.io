@@ -8,8 +8,15 @@
   .desk.is-settled .book { transition: transform .4s ease; }
   .desk.mobile-works .book { transform: translate(-75%, -50%); }
   .desk.is-settled:not(.mobile-works) .projects-layer,
-  .desk.is-settled:not(.mobile-works) .pages,
-  .desk.is-settled.mobile-works .cover { visibility: hidden; }
+  .desk.is-settled.mobile-works .profile-layer,
+  .desk.is-settled.mobile-works .page-collage { visibility: hidden; }
+  /* Keep both paper textures continuous across the fold, including the peek. */
+  .book-body::after {
+    content: ""; position: absolute; left: calc(50% - 9px); top: 0; bottom: 0; width: 18px;
+    background: linear-gradient(90deg, #94745400, #a4876340 24%, #6d513d60 48%, #fff7e66b 55%, #b1997540 70%, #94745400);
+    box-shadow: 0 0 6px #6a4d2d12; opacity: 0; pointer-events: none; transform: translateZ(.6px);
+  }
+  .desk.is-settled .book-body::after { opacity: 1; }
   .desk.is-settled .page-shadow { display: none; }
   .desk-controls { top: max(16px, env(safe-area-inset-top)); bottom: auto; left: 18px; right: 18px; justify-content: flex-end; }
   .edition { display: none; }

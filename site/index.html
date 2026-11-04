@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#eee3d5">
   <link rel="preload" as="image" href="assets/optimized/cover-de2dfbe576-view.webp" fetchpriority="high">
+  <link rel="preload" as="font" type="font/woff2" href="assets/fonts/archive-serif-a189ca1c41.woff2" crossorigin>
   <title>翻开我的作品档案</title>
   <link rel="stylesheet" href="style.css?v=images1">
   <link rel="stylesheet" href="short-projects.css">
@@ -12,7 +13,8 @@
   <link rel="stylesheet" href="folder-motion.css">
   <link rel="stylesheet" href="personal-details.css">
   <link rel="stylesheet" href="design-gallery.css">
-  <link rel="stylesheet" href="mobile-notebook.css">
+  <link rel="stylesheet" href="mobile-notebook.css?v=book2">
+  <link rel="stylesheet" href="book-typography.css?v=book2">
 </head>
 <body>
   <main class="desk" id="desk" aria-label="桌面上的作品笔记本">
@@ -30,16 +32,16 @@
                 <span class="sheet-kicker">01 / BRAND</span>
                 <strong>HBN<br>眼霜策划</strong>
                 <span class="sheet-line">品牌营销策划</span>
-                <span class="sheet-foot">点击查看 <i aria-hidden="true">↗</i></span>
+                <span class="sheet-foot">点击查看 <i aria-hidden="true"><svg class="archive-glyph glyph-up" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 18 18 6M6 6h12v12"/></svg></i></span>
               </button>
               <button class="folder-sheet sheet-market" id="planningSheetMarket" data-project="market" aria-label="查看校园市集策划，可拖出纸张" aria-describedby="folderHelp">
                 <span class="sheet-kicker">02 / CAMPUS</span>
                 <strong>校园市集<br>活动策划</strong>
                 <span class="sheet-line">传媒文化节市集</span>
-                <span class="sheet-foot">点击查看 <i aria-hidden="true">↗</i></span>
+                <span class="sheet-foot">点击查看 <i aria-hidden="true"><svg class="archive-glyph glyph-up" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 18 18 6M6 6h12v12"/></svg></i></span>
               </button>
               <button class="pocket-front" id="folderToggle" aria-label="展开策划文件夹" aria-expanded="false" aria-controls="planningSheetHbn planningSheetMarket"><span class="pocket-label">策划作品<small>PLANNING FILES</small></span><span class="pocket-star" aria-hidden="true">✦</span></button>
-              <button class="sheet-return" id="returnSheet" hidden>放回文件夹 ↙</button>
+              <button class="sheet-return" id="returnSheet" hidden>放回文件夹 <svg class="archive-glyph glyph-down" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M18 6 6 18M6 6v12h12"/></svg></button>
               <span class="folder-help" id="folderHelp">轻点展开 · 纸张可拖出</span>
             </div>
             <div class="design-samplebook">
@@ -47,9 +49,9 @@
               <div class="samplebook-pages" aria-hidden="true"></div>
               <button class="samplebook-cover" data-design aria-label="打开设计作品集">
                 <span class="samplebook-spine" aria-hidden="true"></span>
-                <span class="samplebook-sticker" aria-hidden="true">✳</span>
+                <span class="samplebook-sticker" aria-hidden="true"><svg class="archive-glyph glyph-star" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2v20M2 12h20M5 5l14 14M5 19L19 5"/></svg></span>
                 <span class="samplebook-title">设计作品集<small>DESIGN COLLECTION</small></span>
-                <span class="samplebook-arrow" aria-hidden="true">↗</span>
+                <span class="samplebook-arrow" aria-hidden="true"><svg class="archive-glyph glyph-up" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 18 18 6M6 6h12v12"/></svg></span>
               </button>
               <div class="samplebook-tabs" aria-hidden="true"><span>落地类</span><span>线上类</span><span>推文排版</span></div>
             </div>
@@ -108,23 +110,23 @@
               <svg class="note-paperclip" viewBox="0 0 40 90" aria-hidden="true"><defs><linearGradient id="clipSteel"><stop stop-color="#837a6e"/><stop offset=".35" stop-color="#fffaf0"/><stop offset=".65" stop-color="#a59e91"/><stop offset="1" stop-color="#71695d"/></linearGradient></defs><path d="M28 28V65C28 84 5 84 5 65V17C5 -2 36 -2 36 17V64C36 88 13 88 13 64V20C13 10 28 10 28 20V58" fill="none" stroke="#796c5c35" stroke-width="5" transform="translate(1 2)"/><path d="M28 28V65C28 84 5 84 5 65V17C5 -2 36 -2 36 17V64C36 88 13 88 13 64V20C13 10 28 10 28 20V58" fill="none" stroke="url(#clipSteel)" stroke-width="3" stroke-linecap="round"/></svg>
               <small>A FEW THINGS I DO</small><strong>我能做什么</strong>
               <span>创意策划</span><span>视觉表达</span><span>现场统筹</span>
-              <i>了解更多 ↗</i>
+              <i>了解更多 <svg class="archive-glyph glyph-up" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 18 18 6M6 6h12v12"/></svg></i>
             </button>
             <a class="contact-card" href="mailto:1607303158@qq.com" aria-label="写邮件联系胡嘉瑜：1607303158@qq.com">
               <span class="envelope-flap" aria-hidden="true"></span><span class="envelope-seal" aria-hidden="true"></span>
-              <strong>写信给我 <span aria-hidden="true">↗</span></strong><span class="contact-email">1607303158@qq.com</span>
+              <strong>写信给我 <span aria-hidden="true"><svg class="archive-glyph glyph-up" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 18 18 6M6 6h12v12"/></svg></span></strong><span class="contact-email">1607303158@qq.com</span>
             </a>
           </div>
             </div>
           </div>
         </div>
       </div>
-      <p class="open-hint" id="openHint">轻触，翻开我的作品档案 <span>↗</span></p>
+      <p class="open-hint" id="openHint">轻触，翻开我的作品档案 <span><svg class="archive-glyph glyph-up" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 18 18 6M6 6h12v12"/></svg></span></p>
       <p class="badge-hint" id="badgeHint" aria-hidden="true">拖一拖工作证 · 轻触查看简历</p>
     </div>
     <nav class="desk-controls" aria-label="笔记本控制">
-      <span class="edition">MY LITTLE ARCHIVE <i>✳</i></span>
-      <button id="closeBook" hidden>合上笔记本 <span aria-hidden="true">↙</span></button>
+      <span class="edition">MY LITTLE ARCHIVE <i><svg class="archive-glyph glyph-star" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2v20M2 12h20M5 5l14 14M5 19L19 5"/></svg></i></span>
+      <button id="closeBook" hidden>合上笔记本 <span aria-hidden="true"><svg class="archive-glyph glyph-down" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M18 6 6 18M6 6v12h12"/></svg></span></button>
     </nav>
     <nav class="mobile-page-nav" id="mobilePageNav" aria-label="切换笔记本书页" hidden>
       <div class="mobile-page-tabs">
@@ -141,7 +143,7 @@
     <h1 id="resumeTitle">胡嘉瑜</h1>
     <p class="resume-note">求职方向：策划岗、平面设计岗</p>
     <p class="resume-description">喜欢构思活动，也喜欢琢磨视觉，把点子变成具体的方案与画面。</p>
-    <div class="resume-actions"><a href="assets/hu-jiayu-resume.pdf" target="_blank" rel="noopener">打开 PDF ↗</a><a href="assets/hu-jiayu-resume.pdf" download="胡嘉瑜简历2.0.pdf">下载简历 ↓</a></div><div class="resume-preview"><a href="assets/hu-jiayu-resume.pdf" target="_blank" rel="noopener" aria-label="打开胡嘉瑜简历 PDF"><img src="assets/optimized/hu-jiayu-resume-1-38dcfd5d73-view.webp" alt="胡嘉瑜简历，第1页，点击可打开原始PDF" loading="lazy"></a></div>
+    <div class="resume-actions"><a href="assets/hu-jiayu-resume.pdf" target="_blank" rel="noopener">打开 PDF <svg class="archive-glyph glyph-up" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 18 18 6M6 6h12v12"/></svg></a><a href="assets/hu-jiayu-resume.pdf" download="胡嘉瑜简历2.0.pdf">下载简历 ↓</a></div><div class="resume-preview"><a href="assets/hu-jiayu-resume.pdf" target="_blank" rel="noopener" aria-label="打开胡嘉瑜简历 PDF"><img src="assets/optimized/hu-jiayu-resume-1-38dcfd5d73-view.webp" alt="胡嘉瑜简历，第1页，点击可打开原始PDF" loading="lazy"></a></div>
     <button id="returnBook" class="return-button">回到笔记本</button>
   </dialog>
   <dialog id="abilitiesDialog" class="abilities-dialog" aria-labelledby="abilitiesTitle">
@@ -176,7 +178,7 @@
   <script src="short-projects.js"></script>
   <script src="folder-motion.js"></script>
   <script src="personal-details.js"></script>
-  <script src="design-gallery.js?v=images1"></script>
+  <script src="design-gallery.js?v=book2"></script>
 </body>
 </html>
 

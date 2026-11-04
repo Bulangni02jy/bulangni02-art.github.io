@@ -6,7 +6,7 @@
   const view = document.body.dataset.view;
   let modal;
 
-  const note = (p,dialog=false) => `${dialog?'<button class="dialog-close" aria-label="收起项目介绍">×</button>':''}<p class="brief-category">${safe(p.category)}</p><h1 class="brief-title" id="briefTitle">${safe(p.title)}</h1><p class="brief-name">${safe(p.name)}</p><p class="brief-intro">${safe(p.intro)}</p>${p.contribution?`<p class="brief-contribution"><span>我的分工</span>${safe(p.contribution)}</p>`:''}${p.eventNote?`<p class="brief-event">${safe(p.eventNote)}</p>`:''}<ul class="brief-points">${p.points.map(point=>`<li><h2>${safe(point.title)}</h2><p>${safe(point.text)}</p></li>`).join('')}</ul><div class="brief-files"><a class="pdf-primary" href="${p.pdf}" target="_blank" rel="noopener">阅读完整 PDF ↗</a><a href="${p.pdf}" download="${safe(p.downloadName)}">下载原文件 ↓</a><small>${p.pages} PAGES</small></div>`;
+  const note = (p,dialog=false) => `${dialog?'<button class="dialog-close" aria-label="收起项目介绍">×</button>':''}<p class="brief-category">${safe(p.category)}</p><h1 class="brief-title" id="briefTitle">${safe(p.title)}</h1><p class="brief-name">${safe(p.name)}</p><p class="brief-intro">${safe(p.intro)}</p>${p.contribution?`<p class="brief-contribution"><span>我的分工</span>${safe(p.contribution)}</p>`:''}${p.eventNote?`<p class="brief-event">${safe(p.eventNote)}</p>`:''}<ul class="brief-points">${p.points.map(point=>`<li><h2>${safe(point.title)}</h2><p>${safe(point.text)}</p></li>`).join('')}</ul><div class="brief-files"><a class="pdf-primary" href="${p.pdf}" target="_blank" rel="noopener">阅读完整 PDF ↗︎</a><a href="${p.pdf}" download="${safe(p.downloadName)}">下载原文件 ↓</a><small>${p.pages} PAGES</small></div>`;
 
   function showProject(key,card) {
     if(!data?.[key]) return;
@@ -38,7 +38,7 @@
       content.innerHTML=note(p);
     } else {
       content.classList.add('brief-directory');
-      content.innerHTML=`<h1>策划作品</h1>${Object.entries(data).map(([key,p])=>`<a href="project.html?project=${key}"><span>${safe(p.category)}</span><strong>${safe(p.title)} ↗</strong><p>${safe(p.intro)}</p></a>`).join('')}`;
+      content.innerHTML=`<h1>策划作品</h1>${Object.entries(data).map(([key,p])=>`<a href="project.html?project=${key}"><span>${safe(p.category)}</span><strong>${safe(p.title)} ↗︎</strong><p>${safe(p.intro)}</p></a>`).join('')}`;
     }
   }
 

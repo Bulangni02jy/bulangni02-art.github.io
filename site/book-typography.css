@@ -1,0 +1,12 @@
+/* Noto Serif SC subset, SIL OFL: assets/fonts/OFL.txt */
+@font-face { font-family: "Archive Book Serif"; src: url("assets/fonts/archive-serif-a189ca1c41.woff2") format("woff2"); font-style: normal; font-weight: 400; font-display: swap; }
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+.pocket-label, .pocket-note, .pocket-card strong, .samplebook-title, .samplebook-tabs span,
+.archive-ticket>span, .ability-note strong, .ability-note>span:not(.note-tape), .contact-card strong,
+.folder-sheet strong, .mobile-page-tabs button, #badgeRig text:not([font-family^="Arial"]) {
+  font-family: "Archive Book Serif", "Songti SC", "SimSun", serif;
+}
+.archive-glyph { display: inline-block; width: 1em; height: 1em; vertical-align: -.12em; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; flex-shrink: 0; }
+.glyph-star { stroke-width: 2.3; }
+.samplebook-sticker { line-height: 1; }
+.samplebook-arrow, .sheet-foot i, #closeBook span, .open-hint>span { font-variant-emoji: text; }
